@@ -1,0 +1,16 @@
+# Node.js / React
+client/node_modules/
+client/dist/
+client/.env
+
+# .NET / C#
+server/bin/
+server/obj/
+server/appsettings.json
+server/appsettings.Development.json
+
+# MacOS
+.DS_Store
+
+# VSCode
+.vscode/
