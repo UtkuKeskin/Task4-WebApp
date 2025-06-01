@@ -1,10 +1,10 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /app
 
-COPY server/Task4WebApp.csproj ./
+COPY Task4WebApp.csproj ./
 RUN dotnet restore
 
-COPY server/. ./
+COPY . ./
 RUN dotnet publish -c Release -o out
 
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
