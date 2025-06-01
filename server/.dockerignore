@@ -1,0 +1,12 @@
+**/bin/
+**/obj/
+*.md
+*.user
+*.suo
+.vscode/
+.git/
+.gitattributes
+.gitignore
+.DS_Store
+*.sln
+client/
